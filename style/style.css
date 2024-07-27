@@ -1,4 +1,12 @@
 /* shared styles */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+.lato-regular {
+  font-family: "Lato", sans-serif;
+}
+.lato-bold {
+  font-family: "Lato", sans-serif;
+}
+
 .btn-primary {
   padding: 20px 40px;
   border: none;
@@ -15,6 +23,9 @@
   text-align: center;
 }
 /* header section styles */
+header {
+  height: 750px;
+}
 .banner {
   display: flex;
   justify-content: space-between;
@@ -36,7 +47,7 @@
 }
 /* main styles */
 .our-featured-flowers {
-  width: 1440px;
+  max-width: 1440px;
   margin: 0px auto;
 }
 .our-featured-flowers-heading {
@@ -83,16 +94,115 @@
 .card-title {
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
-  max-width: 1440px;
-  margin: 0px auto;
-  border: 2px solid black;
+  max-width: 1200px;
+  margin: 100px auto;
 }
-.card-title .card{
+.card-title .card {
   display: flex;
   justify-content: space-around;
   text-align: center;
 }
 .card-title .card {
-  padding: 85px 0px 85px 0px;
+  padding: 50px 0px 50px 0px;
 }
-
+.offer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  margin-top: 130px;
+  padding: 50px 250px;
+  gap: 150px;
+}
+.off {
+  color: rgb(229, 84, 115);
+}
+.offer-content h2 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.offer-content {
+  text-align: center;
+}
+.intragram {
+  max-width: 1200px;
+  margin: 130px auto;
+}
+.intragram-content {
+  text-align: center;
+}
+.intragram-content h2 {
+  color: rgb(39, 39, 39);
+  font-size: 40px;
+  font-weight: 800;
+}
+.intragram-img img {
+  width: 250px;
+}
+.intragram-img {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 50px;
+}
+.get-the-latest-deals {
+  max-width: 1100px;
+  background-image: url("/Flower Asset/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-size: 1100px;
+  margin: 0px auto;
+  padding: 60px 0px;
+}
+.get-the-latest-deals-content {
+  text-align: center;
+}
+.get-the-latest-deals-content h3 {
+  color: rgb(39, 39, 39);
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.get-the-latest-deals-content p {
+  margin-bottom: 45px;
+}
+.field input {
+  border: none;
+  background: rgb(255, 255, 255);
+  width: 600px;
+  height: 50px;
+}
+.field input:focus {
+  outline: none;
+}
+.field {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+footer {
+  background-color: rgb(17, 16, 16);
+  padding: 80px 400px;
+  margin-top: 100px;
+}
+footer .flower {
+  color: rgb(229, 84, 115);
+}
+footer .shop {
+  color: rgb(255, 255, 255);
+}
+footer h3 {
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+}
+.footer-content {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+}
+.All-rights-reserved {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+}
