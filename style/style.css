@@ -1,0 +1,98 @@
+/* shared styles */
+.btn-primary {
+  padding: 20px 40px;
+  border: none;
+  border-radius: 8px;
+  background: rgb(229, 84, 115);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+}
+.common-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+/* header section styles */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-content h1 {
+  color: rgb(39, 39, 39);
+  font-size: 80px;
+  font-weight: 800;
+}
+.banner {
+  padding: 30px 50px 0px 50px;
+  background-color: rgba(229, 84, 115, 0.1);
+}
+.banner-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+}
+/* main styles */
+.our-featured-flowers {
+  width: 1440px;
+  margin: 0px auto;
+}
+.our-featured-flowers-heading {
+  width: 590px;
+  margin: 150px auto 50px auto;
+}
+.our-featured-flowers-heading h3 {
+  color: rgb(39, 39, 39);
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+}
+.our-featured-flowers-img {
+  display: flex;
+  justify-content: space-evenly;
+}
+.png-5 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  padding: 117px 47px 51px 47px;
+}
+.png-6 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  padding: 110px 75px 0px 75px;
+}
+.png-7 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  padding: 65px 75px 0px 75px;
+}
+.pink-flower-tree {
+  display: flex;
+  justify-content: space-evenly;
+}
+.pink-flower-tree p {
+  margin: 30px auto;
+  color: rgb(39, 39, 39);
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration-line: underline;
+}
+.card-title {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  max-width: 1440px;
+  margin: 0px auto;
+  border: 2px solid black;
+}
+.card-title .card{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.card-title .card {
+  padding: 85px 0px 85px 0px;
+}
+
